@@ -1,0 +1,23 @@
+public class Independant_Method {
+ int a = 10;
+
+ double areaofsquare() {
+  int areaofsquare = a * a;
+  System.out.println("areaofsquare = " + areaofsquare);
+  return areaofsquare;
+ }
+
+ double cubeofsquare() {
+  double cubeofsquare = a * a * a;
+  System.out.println("cubeofsquare = " + cubeofsquare);
+  return cubeofsquare;
+ }
+
+ public static void main(String[] args) {
+  Independant_Method method = new Independant_Method();
+  method.areaofsquare();
+  method.cubeofsquare();
+
+ }
+
+}
