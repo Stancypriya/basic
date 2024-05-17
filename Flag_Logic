@@ -1,0 +1,14 @@
+public class Flag_Logic {
+
+ public static void main(String[] args) {
+  // in flag logic give boolean value always false
+  // boolean flag is checked with condition
+  boolean flag = false;
+  for (int i = 1; i <= 10; ++i) {
+   if (i % 5 == 0) {
+    flag = true;
+   }
+  }
+  System.out.println(flag);
+ }
+}
