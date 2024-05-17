@@ -1,0 +1,31 @@
+public class AssignmentOperator {
+
+ public static void main(String[] args) {
+  int a=5;
+  int var;
+  
+  //Assign value using =
+  var=a;
+  System.out.println(var);
+  
+  //Assign value using +=
+  var +=a;
+  System.out.println(var);
+  
+  //Assign value using *=
+  var*=a;
+  System.out.println(var);
+  
+  //Assign value using -=
+  var-=a;
+  System.out.println(var);
+  
+  //Assign value using -=
+  var%=a;
+  System.out.println(var);
+  
+  //Assign value using -=
+  var/=a;
+  System.out.println(var);
+ }
+}
