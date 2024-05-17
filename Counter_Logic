@@ -1,0 +1,33 @@
+public class Counter_logic {
+
+ public static void main(String[] args) {
+  // counter logic is used for count the true value
+  int count = 0;
+  int counter = 0;
+  // count with and && logic
+  for (int i = 10; i >= 1; --i) {
+   if (i % 2 == 0 && i % 11 == 0) {
+    count = count + 1;
+   }
+  }
+  System.out.println(count);
+
+  // count with or || logic
+
+  for (int i = 1; i <= 10; ++i) {
+   if (i % 4 == 0 || i % 2 == 0) {
+    count = count + 1;
+   }
+  }
+  System.out.println(count);
+
+  // count with not equal !=
+
+  for (int i = 1; i <= 10; ++i) {
+   if (i%2 != 0 || i%3 != 0) {
+    counter = counter + 1;
+   }
+  }
+  System.out.println(counter);
+ }
+}
