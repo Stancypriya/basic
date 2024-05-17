@@ -1,0 +1,23 @@
+public class dependant_method {
+
+ int a = 10;
+
+ int area() {
+  int area = a * a;
+  System.out.println("area of square =" + area);
+  return area;
+ }
+
+ int cube() {
+  int cube = a * area();
+  System.out.println("cube of Square =" + cube);
+  return cube;
+ }
+
+ public static void main(String[] args) {
+  dependant_method depent = new dependant_method();
+  depent.area();
+  depent.cube();
+ }
+
+}
